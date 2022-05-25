@@ -1,8 +1,8 @@
 <html>
-<body>
-clickDownload()
+<body onload="clickDownload()">
+
 <script>
-clickDownload() {
+function clickDownload() {
                 if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
                     var loadDateTime = new Date();
                     window.location = "...";//schema链接或者universal link
